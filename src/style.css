@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.naipe {
+  width: 400px;
+  height: 600px;
+  background: white;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+
+.top-symbol {
+}
+
+.bottom-symbol {
+}
+
+.central-symbol {
+  font-size: 10em;
+}
