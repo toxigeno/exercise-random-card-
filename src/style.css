@@ -4,7 +4,7 @@ body {
   background-color: green;
 }
 
-.naipe {
+.mycard {
   width: 400px;
   height: 600px;
   background: white;
@@ -12,12 +12,21 @@ body {
   margin: 0 auto;
 }
 
-.top-symbol {
-}
-
-.bottom-symbol {
-}
-
-.central-symbol {
+#lucky {
   font-size: 10em;
+}
+
+.Spades:before {
+  content: "\2660";
+}
+.Clubs:before {
+  content: "\2663";
+}
+.Hearts:before {
+  color: red;
+  content: "\2665";
+}
+.Diamonds:before {
+  color: red;
+  content: "\26ca";
 }
